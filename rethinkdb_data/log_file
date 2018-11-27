@@ -1,0 +1,20 @@
+2018-11-27T14:00:44.199771000 0.199923s notice: Recursively removing directory /Users/KG/Code/Rails/realtime_spreadsheet/rethinkdb_data/tmp
+2018-11-27T14:00:44.202408000 0.202565s notice: Initializing directory /Users/KG/Code/Rails/realtime_spreadsheet/rethinkdb_data
+2018-11-27T14:00:44.202547000 0.202698s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/KG/Code/Rails/realtime_spreadsheet/rethinkdb_data' did not already exist or is empty.)
+2018-11-27T14:00:44.202610000 0.202761s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-11-27T14:00:44.210286000 0.210437s notice: Running on Darwin 17.7.0 x86_64
+2018-11-27T14:00:44.210337000 0.210488s notice: Loading data from directory /Users/KG/Code/Rails/realtime_spreadsheet/rethinkdb_data
+2018-11-27T14:00:44.418594000 0.418750s info: Automatically using cache size of 329 MB
+2018-11-27T14:00:44.420816000 0.420974s notice: Listening for intracluster connections on port 29015
+2018-11-27T14:00:44.423175000 0.423331s notice: Listening for client driver connections on port 28015
+2018-11-27T14:00:44.423341000 0.423497s notice: Listening for administrative HTTP connections on port 8080
+2018-11-27T14:00:44.423343000 0.423499s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-11-27T14:00:44.423349000 0.423505s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-11-27T14:00:44.423352000 0.423508s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-11-27T14:00:44.423360000 0.423516s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-11-27T14:00:44.423368000 0.423524s notice: Server ready, "KGs_17_MacBook_Pro_local_vx3" 1c8596f2-8748-4136-b2c2-6f2b7c5f4c8e
+2018-11-27T14:01:12.791786000 28.792647s notice: Server got SIGINT from pid 99818, uid 501; shutting down...
+2018-11-27T14:01:12.792127000 28.792987s notice: Shutting down client connections...
+2018-11-27T14:01:12.792271000 28.793131s notice: All client connections closed.
+2018-11-27T14:01:12.792283000 28.793144s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-11-27T14:01:12.793018000 28.793879s notice: Storage engine shut down.
