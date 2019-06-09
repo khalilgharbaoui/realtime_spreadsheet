@@ -25,5 +25,6 @@ App.spreadsheet =
       rowHeaders: true
       colHeaders: true
       contextMenu: true
+      licenseKey: 'non-commercial-and-evaluation'
     )
 $ -> App.spreadsheet.setup()
