@@ -1,6 +1,12 @@
+<% content_for(:head) do %>
+  <%= javascript_include_tag "https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js" %>
+  <%= stylesheet_link_tag "https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css" %>
+<% end %>
 <h1>Spreadsheet#index</h1>
 <p>Find me in app/views/spreadsheet/index.html.erb</p>
 <section id="active_users">
   <h2>Active users</h2>
   <ul id="active_users_list"></ul>
+</section>
+<section id="spreadsheet">
 </section>

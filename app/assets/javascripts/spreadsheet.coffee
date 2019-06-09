@@ -10,8 +10,20 @@ App.spreadsheet =
     delete @active_users[user.id]
     @render_active_users()
   render_active_users: () ->
-    list = document.getElementById('active_users_list')
-    list.innerHTML = ("<li>#{user.id}</li>" for id,user of @active_users).join("")
-    # $('#active_users_list').html(
+    # list =
+      # document.getElementById('active_users_list')
+    # list.innerHTML =
       # ("<li>#{user.id}</li>" for id,user of @active_users).join("")
-    # )
+    $('#active_users_list').html(
+      ("<li>#{user.id}</li>" for id,user of @active_users).join("")
+    )
+  setup: () ->
+    container = document.getElementById('spreadsheet')
+    @hot = new Handsontable(container,
+      minSpareCols: 1
+      minSpareRows: 1
+      rowHeaders: true
+      colHeaders: true
+      contextMenu: true
+    )
+$ -> App.spreadsheet.setup()
